@@ -1,0 +1,114 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cardIntro {
+    border-radius: 20px;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.cardOptions {
+    border-radius: 15px;
+    background-color: white;
+    opacity: 0.96;
+}
+
+
+.redBtn {
+    width: auto;
+    height: auto;
+    background: brown;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    color: white;
+}
+
+.redBtn:hover {
+    cursor: url("../../Assets/images/kursor.png"), auto !important;
+
+}
+
+input {
+    cursor: url("../../Assets/images/kursor.png"), auto !important;
+}
+
+select {
+    cursor: url("../../Assets/images/kursor.png"), auto !important;
+}
+
+label {
+    cursor: url("../../Assets/images/kursor.png"), auto !important;
+}
+
+.pageWrapper {
+    height: 81vh;
+    justify-content: center;
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.page {
+    /*justify-content: center;
+    display: flex;*/
+    font-size: calc(4px + 6 * ((100vw - 320px) / 680));
+}
+
+.pageCalendar {
+    font-size: calc(4px + 6 * ((100vw - 320px) / 680));
+    background-color: #fff;
+    opacity: 0.97;
+
+}
+
+.clientsPage {
+    font-size: calc(3px + 6 * ((100vw - 320px) / 680));
+    white-space: nowrap;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.7;
+    text-align: center;
+
+}
+
+::-webkit-scrollbar {
+
+    width: 10px;
+
+}
+
+
+::-webkit-scrollbar-track {
+
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+
+}
+
+
+::-webkit-scrollbar-thumb {
+
+    background: brown;
+
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+    background: brown;
+
+}
+
+/*media */
+@media all and (max-width: 1440px) {
+    .pageWrapper {
+        height: 77vh;
+    }
+}
